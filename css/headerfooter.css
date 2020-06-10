@@ -51,8 +51,13 @@ img {
   height: 4px;
   left: 0;
   bottom: 0;
-  background-color: var(--background-color);
+
   border-radius: 2px;
+}
+
+.nav-link:hover:after,
+.nav-link:focus:after {
+  background-color: var(--background-color);
 }
 
 .site-nav {
@@ -261,7 +266,7 @@ img {
   width: 207px;
 }
 
-.socsetfooter {
+.socsetfooter:hover {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
