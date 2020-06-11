@@ -114,6 +114,14 @@
   position: relative;
 }
 
+.size-item {
+  width: calc((100% - 30px * 3) / 4);
+}
+
+.item-size {
+  width: calc((100% - 30px * 2) / 3);
+}
+
 .three {
   position: absolute;
   color: var(--text-color);
@@ -240,7 +248,7 @@
   fill: #afb1b8;
   display: block;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socset:hover .socset-icon,
@@ -262,7 +270,7 @@
   border: 1px solid #afb1b8;
   border-radius: 4px;
   margin-bottom: 94px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backgrlogo:hover,
@@ -274,6 +282,7 @@
   fill: #afb1b8;
   width: 44px;
   height: 49px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backgrlogo:hover .logoone,
@@ -285,6 +294,7 @@
   fill: #afb1b8;
   width: 40px;
   height: 52px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backgrlogo:hover .logotwo,
@@ -296,6 +306,7 @@
   fill: #afb1b8;
   width: 41px;
   height: 42.5px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backgrlogo:hover .logothree,
@@ -307,6 +318,7 @@
   fill: #afb1b8;
   width: 79px;
   height: 42px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backgrlogo:hover .logofoure,
@@ -318,6 +330,7 @@
   fill: #afb1b8;
   width: 59px;
   height: 47px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backgrlogo:hover .logofive,
@@ -329,6 +342,7 @@
   fill: #afb1b8;
   width: 88px;
   height: 45px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backgrlogo:hover .logosix,
